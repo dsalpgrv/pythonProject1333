@@ -1,11 +1,7 @@
-n = int(input()) 
-numbers = []  
-
-for _ in range(n):
-    number = int(input())
-    numbers.append(number)
-    
-reversed_numbers = numbers[::-1] 
-
-for number in reversed_numbers:
-    print(number)
+n= int(input())
+res=[]
+for i in range(n):
+    a=int(input())
+    res.append(a)
+res.reverse()
+print(res)
